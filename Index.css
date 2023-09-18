@@ -1,0 +1,57 @@
+body{background-image:url(ciudadfondo.jpg); background-size: cover;}
+.texto{background-color: #333;
+    display: flex;
+    align-items: center;}
+
+.imagen{
+    border-radius: 10%; /*bordea los lados*/
+    max-width: 400px;;
+    max-height: 200px;
+    margin: 0 50px;
+    display: flex;}     
+
+.titulo{background-color: #333;}
+
+
+.menu {background-color: #3d3d3d;/*color fondo*/}
+
+    .menu li{
+        display: flex;/*es para que se utilize en varios*/
+        justify-content: space-evenly;/*darle un espaciado en la misma linea*/   
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #fff;    }
+
+
+
+/* Estilos para pantallas grandes (escritorio) */
+@media (min-width: 768px) {
+    .nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        flex: 1;
+    }
+
+    .content {
+        background-color: #fff;
+        padding: 20px;
+        flex: 3;
+    }
+    .container{height: auto;}
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 467px) 
+{
+    .resumen{flex-direction: column;} /*se coloca todo como una columna*/
+    body{font-size: 14px;}
+    .menu h2{font-size: 14px;}
+    .resumen img{max-width: 300px;
+        height: auto;}
+    .all{max-width: 450px;
+        max-height: 1700px;
+        height: auto;}
+}
