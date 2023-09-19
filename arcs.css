@@ -1,8 +1,10 @@
 body{background-image:url(galaxia.jpg);}
-.titulo{background-color: #252525;}
+.titulo{background-color: #252525;
+        margin-bottom: 100px;}/*centra obligado*/
 
 .arcs{display: flex;
-    justify-content: space-around;}
+    justify-content: space-around;
+     }
 
     img{
         border-radius: 10%;
