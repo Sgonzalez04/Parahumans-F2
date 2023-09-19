@@ -1,4 +1,7 @@
-.titulo{background-color: #252525;}
+body{background-image:url(galaxia.jpg);}
+
+.titulo{background-color: #252525;
+    margin-bottom: 100px;}/*centra obligado*/
 img{
     height: 500px;
     object-fit: contain ;
