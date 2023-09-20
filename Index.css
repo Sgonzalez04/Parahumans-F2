@@ -26,7 +26,7 @@ body{background-image:url(ciudadfondo.jpg); background-size: cover;}
 
 
 /* Estilos para pantallas tablets */
-@media (min-width: 750px) {
+@media (max-width: 750px) {
     .resumen{flex-direction: column;} /*se coloca todo como una columna*/
     body{font-size: 14px;}
     .resumen img{max-width: 300px;
