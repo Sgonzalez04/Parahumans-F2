@@ -56,6 +56,15 @@ body{background-image:url(galaxia.jpg);}
     }
 }
 
+/* Estilos para pantallas tablets */
+@media (max-width: 750px) 
+{
+    body{font-size: 14px;}
+    img{max-width: 200px;
+}
+    .menu h2{font-size: 12px;}
+}
+
 /* Estilos para pantallas pequeñas (móviles) */
 @media (max-width: 467px) 
 {
