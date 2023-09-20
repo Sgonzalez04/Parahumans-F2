@@ -22,6 +22,15 @@ img{
       text-decoration: none;
       color: #fff;}
 
+/* Estilos para pantallas tablets */
+@media (max-width: 750px) 
+{
+    .menu h2{font-size: 14px;}
+    .carousel-title {
+        color: black; /* Cambiar el color del texto a negro */
+      }
+}
+
 /* Estilos para pantallas pequeñas (móviles) */
 @media (max-width: 576px) 
 {
