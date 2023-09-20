@@ -25,22 +25,16 @@ body{background-image:url(ciudadfondo.jpg); background-size: cover;}
         color: #fff;    }
 
 
-
-/* Estilos para pantallas grandes (escritorio) */
-@media (min-width: 768px) {
-    .nav {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        flex: 1;
-    }
-
-    .content {
-        background-color: #fff;
-        padding: 20px;
-        flex: 3;
-    }
-    .container{height: auto;}
+/* Estilos para pantallas tablets */
+@media (min-width: 750px) {
+    .resumen{flex-direction: column;} /*se coloca todo como una columna*/
+    body{font-size: 14px;}
+    .menu h2{font-size: 14px;}
+    .resumen img{max-width: 300px;
+        height: auto;}
+    .all{max-width: 450px;
+        max-height: 1700px;
+        height: auto;}
 }
 
 /* Estilos para pantallas pequeñas (móviles) */
