@@ -54,20 +54,26 @@ p > a:hover {
     color: #ff9d2c; /* color al pasar por ensima */
 }
 
-/* Estilos para pantallas grandes (escritorio) */
-@media (min-width: 768px) {
-    .container {
-        display: flex;
+/* Estilos para pantallas tablets */
+@media (max-width: 750px) {
+    .cuadro {
+        flex-direction: column;
+        align-items: center;
     }
-
-    .content {
-        background-color: #fff;
-        padding: 20px;
-        flex: 3;
+    img{
+        width: 100%;
     }
-    .extra{height: auto;
-    width: auto;}
-
+    
+    .clases {
+        text-align: center; /* Centrar el texto horizontalmente */
+    }
+    .menu h2{font-size: 14px;}
+    p{font-size: 14px;}
+    p > a { /* p contenido en a */
+        text-decoration: none; /* decoracion texto */
+        color: blanchedalmond; /* color texto */
+        font-size: 14px;
+    }
 }
 
 /* Estilos para pantallas pequeñas (móviles) */
